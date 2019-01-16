@@ -14,13 +14,13 @@ An introduction to the basic concepts of Python. Learn how to use Python both in
 
 ### Hello Python!
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### The Python Interface
 
-100xp
+100 xp
 
 code
 
@@ -32,18 +32,20 @@ print(5 / 8)
 print(7 + 10)
 ```
 
-output:
+output
 
 ```python
-    0.625
-    17
+0.625
+17
 ```
 
 <img src="../../images/datacamp/mc.svg" alt="mc" width="20"/>
 
 ### When to use Python?
 
-50xp
+50 xp
+
+answer
 
 ```python
 All of the above
@@ -53,7 +55,7 @@ All of the above
 
 ### Any comments?
 
-100xp
+100 xp
 
 code
 
@@ -65,18 +67,18 @@ print(5 / 8)
 print(7 + 10)
 ```
 
-output:
+output
 
 ```python
-    0.625
-    17
+0.625
+17
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Python as a calculator
 
-100xp
+100 xp
 
 code
 
@@ -95,29 +97,29 @@ print(4 ** 2)
 print(100*1.1**7)
 ```
 
-output:
+output
 
 ```python
-    10
-    0
-    15
-    5.0
-    4
-    16
-    194.87171000000012
+10
+0
+15
+5.0
+4
+16
+194.87171000000012
 ```
 
 <img src="../../images/datacamp/exercise.svg" alt="exercise" width="20"/>
 
 ### Variables & Types
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Variable Assignment
 
-100xp
+100 xp
 
 code
 
@@ -129,17 +131,17 @@ savings = 100
 print(savings)
 ```
 
-output:
+output
 
 ```python
-    100
+100
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Calculations with variables
 
-100xp
+100 xp
 
 code
 
@@ -157,17 +159,17 @@ result = savings * growth_multiplier ** 7
 print(result)
 ```
 
-output:
+output
 
 ```python
-    194.87171000000012
+194.87171000000012
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Other variable types
 
-100xp
+100 xp
 
 code
 
@@ -183,7 +185,9 @@ profitable = True
 
 ### Guess the type
 
-50xp
+50 xp
+
+answer
 
 ```pytyhon
 a is of type float, b is of type str, c is of type bool
@@ -193,7 +197,7 @@ a is of type float, b is of type str, c is of type bool
 
 ### Operations with other types
 
-100xp
+100 xp
 
 code
 
@@ -215,18 +219,18 @@ doubledesc = desc + desc
 print(doubledesc)
 ```
 
-output:
+output
 
 ```python
-    <class 'float'>
-    compound interestcompound interest
+<class 'float'>
+compound interestcompound interest
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Type conversion
 
-100xp
+100 xp
 
 code
 
@@ -245,17 +249,19 @@ pi_string = "3.1415926"
 pi_float = float(pi_string)
 ```
 
-output:
+output
 
 ```python
-    I started with $100 and now have $194.87171000000012. Awesome!
+I started with $100 and now have $194.87171000000012. Awesome!
 ```
 
 <img src="../../images/datacamp/mc.svg" alt="mc" width="20"/>
 
 ### Can Python handle everything?
 
-50xp
+50 xp
+
+answer
 
 ```python
 "The correct answer to this multiple choice exercise is answer number " + 2
@@ -271,13 +277,13 @@ Learn to store, access and manipulate data in lists: the first step towards effi
 
 ### Lists, what are they?
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Create a list
 
-100xp
+100 xp
 
 code
 
@@ -296,17 +302,17 @@ areas = [hall, kit, liv, bed, bath]
 print(areas)
 ```
 
-output:
+output
 
 ```python
-    [11.25, 18.0, 20.0, 10.75, 9.5]
+[11.25, 18.0, 20.0, 10.75, 9.5]
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Create list with different types
 
-100xp
+100 xp
 
 code
 
@@ -325,17 +331,19 @@ areas = ["hallway", hall, "kitchen", kit, "living room", liv, "bedroom", bed, "b
 print(areas)
 ```
 
-output:
+output
 
 ```python
-    ['hallway', 11.25, 'kitchen', 18.0, 'living room', 20.0, 'bedroom', 10.75, 'bathroom', 9.5]
+['hallway', 11.25, 'kitchen', 18.0, 'living room', 20.0, 'bedroom', 10.75, 'bathroom', 9.5]
 ```
 
 <img src="../../images/datacamp/mc.svg" alt="mc" width="20"/>
 
 ### Select the valid list
 
-50xp
+50 xp
+
+answer
 
 ```python
 A, B and C
@@ -345,7 +353,7 @@ A, B and C
 
 ### List of lists
 
-100xp
+100 xp
 
 code
 
@@ -371,24 +379,24 @@ print(house)
 print(type(house))
 ```
 
-output:
+output
 
 ```python
-    [['hallway', 11.25], ['kitchen', 18.0], ['living room', 20.0], ['bedroom', 10.75], ['bathroom', 9.5]]
-    <class 'list'>
+[['hallway', 11.25], ['kitchen', 18.0], ['living room', 20.0], ['bedroom', 10.75], ['bathroom', 9.5]]
+<class 'list'>
 ```
 
 <img src="../../images/datacamp/exercise.svg" alt="exercise" width="20"/>
 
 ### Subsetting lists
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Subset and conquer
 
-100xp
+100 xp
 
 code
 
@@ -406,19 +414,19 @@ print(areas[-1])
 print(areas[5])
 ```
 
-output:
+output
 
 ```python
-    11.25
-    9.5
-    20.0
+11.25
+9.5
+20.0
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Subset and calculate
 
-100xp
+100 xp
 
 code
 
@@ -433,17 +441,17 @@ eat_sleep_area = areas[3] + areas[7]
 print(eat_sleep_area)
 ```
 
-output:
+output
 
 ```python
-    28.75
+28.75
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Slicing and dicing
 
-100xp
+100 xp
 
 code
 
@@ -462,18 +470,18 @@ print(downstairs)
 print(upstairs)
 ```
 
-output:
+output
 
 ```python
-    ['hallway', 11.25, 'kitchen', 18.0, 'living room', 20.0]
-    ['bedroom', 10.75, 'bathroom', 9.5]
+['hallway', 11.25, 'kitchen', 18.0, 'living room', 20.0]
+['bedroom', 10.75, 'bathroom', 9.5]
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Slicing and dicing (2)
 
-100xp
+100 xp
 
 code
 
@@ -492,7 +500,9 @@ upstairs = areas[-4:]
 
 ### Subsetting lists of lists
 
-50xp
+50 xp
+
+answer
 
 ```python
 A float: the bathroom area
@@ -502,13 +512,13 @@ A float: the bathroom area
 
 ### List Manipulation
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Replace list elements
 
-100xp
+100 xp
 
 code
 
@@ -527,7 +537,7 @@ areas[4] = "chill zone"
 
 ### Extend a list
 
-100xp
+100 xp
 
 code:
 
@@ -547,7 +557,9 @@ areas_2 = areas_1 + ["garage", 15.45]
 
 ### Delete list elements
 
-50xp
+50 xp
+
+answer
 
 ```python
 del(areas[-4:-2])
@@ -557,7 +569,7 @@ del(areas[-4:-2])
 
 ### Inner workings of lists
 
-100xp
+100 xp
 
 code
 
@@ -575,10 +587,10 @@ areas_copy[0] = 5.0
 print(areas)
 ```
 
-output:
+output
 
 ```python
-    [11.25, 18.0, 20.0, 10.75, 9.5]
+[11.25, 18.0, 20.0, 10.75, 9.5]
 ```
 
 ## Functions and Packages
@@ -591,13 +603,13 @@ To leverage the code that brilliant Python developers have written, you'll learn
 
 ### Functions
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Familiar functions
 
-100xp
+100 xp
 
 code
 
@@ -616,18 +628,20 @@ print(len(var1))
 out2 = int(var2)
 ```
 
-output:
+output
 
 ```python
-    <class 'list'>
-    4
+<class 'list'>
+4
 ```
 
 <img src="../../images/datacamp/mc.svg" alt="mc" width="20"/>
 
 ### Help!
 
-50xp
+50 xp
+
+answer
 
 ```python
 complex() takes two arguments: real and imag. real is a required argument, imag is an optional argument.
@@ -637,7 +651,7 @@ complex() takes two arguments: real and imag. real is a required argument, imag 
 
 ### Multiple arguments
 
-100xp
+100 xp
 
 code
 
@@ -656,23 +670,23 @@ full_sorted = sorted(full, reverse=True)
 print(full_sorted)
 ```
 
-output:
+output
 
 ```python
-    [20.0, 18.0, 11.25, 10.75, 9.5]
+[20.0, 18.0, 11.25, 10.75, 9.5]
 ```
 
 <img src="../../images/datacamp/exercise.svg" alt="exercise" width="20"/>
 
 ### Methods
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### String Methods
 
-100xp
+100 xp
 
 code
 
@@ -691,19 +705,19 @@ print(place_up)
 print(place.count('o'))
 ```
 
-output:
+output
 
 ```python
-    poolhouse
-    POOLHOUSE
-    3
+poolhouse
+POOLHOUSE
+3
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### List Methods
 
-100xp
+100 xp
 
 code
 
@@ -718,18 +732,18 @@ print(areas.index(20.0))
 print(areas.count(9.50))
 ```
 
-output:
+output
 
 ```python
-    2
-    1
+2
+1
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### List Methods (2)
 
-100xp
+100 xp
 
 code
 
@@ -752,24 +766,24 @@ areas.reverse()
 print(areas)
 ```
 
-output:
+output
 
 ```python
-    [11.25, 18.0, 20.0, 10.75, 9.5, 24.5, 15.45]
-    [15.45, 24.5, 9.5, 10.75, 20.0, 18.0, 11.25]
+[11.25, 18.0, 20.0, 10.75, 9.5, 24.5, 15.45]
+[15.45, 24.5, 9.5, 10.75, 20.0, 18.0, 11.25]
 ```
 
 <img src="../../images/datacamp/exercise.svg" alt="exercise" width="20"/>
 
 ### Packages
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Import package
 
-100xp
+100 xp
 
 code
 
@@ -791,18 +805,18 @@ print("Circumference: " + str(C))
 print("Area: " + str(A))
 ```
 
-output:
+output
 
 ```python
-    Circumference: 2.701769682087222
-    Area: 0.5808804816487527
+Circumference: 2.701769682087222
+Area: 0.5808804816487527
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Selective import
 
-100xp
+100 xp
 
 code
 
@@ -820,17 +834,19 @@ dist = r * radians(12)
 print(dist)
 ```
 
-output:
+output
 
 ```python
-    40317.10572106901
+40317.10572106901
 ```
 
 <img src="../../images/datacamp/mc.svg" alt="mc" width="20"/>
 
 ### Different ways of importing
 
-50xp
+50 xp
+
+answer
 
 ```python
 from scipy.linalg import inv as my_inv
@@ -846,13 +862,13 @@ NumPy是一个有效地进行数据科学的Python包。 学习使用NumPy阵列
 
 ### NumPy
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Your First NumPy Array
 
-100xp
+100 xp
 
 code
 
@@ -870,17 +886,17 @@ np_baseball = np.array(baseball)
 print(type(np_baseball))
 ```
 
-output:
+output
 
 ```python
-    <class 'numpy.ndarray'>
+<class 'numpy.ndarray'>
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Baseball players' height
 
-100xp
+100 xp
 
 code
 
@@ -903,18 +919,18 @@ np_height_m = np_height_in * 0.0254
 print(np_height_m)
 ```
 
-output:
+output
 
 ```python
-    [74 74 72 ..., 75 75 73]
-    [ 1.8796  1.8796  1.8288 ...,  1.905   1.905   1.8542]
+[74 74 72 ..., 75 75 73]
+[ 1.8796  1.8796  1.8288 ...,  1.905   1.905   1.8542]
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Baseball player's BMI
 
-100xp
+100 xp
 
 code
 
@@ -937,18 +953,18 @@ bmi = np_weight_kg / np_height_m ** 2
 print(bmi)
 ```
 
-output:
+output
 
 ```python
-    [ 23.11037639  27.60406069  28.48080465 ...,  25.62295933  23.74810865
-      25.72686361]
+[ 23.11037639  27.60406069  28.48080465 ...,  25.62295933  23.74810865
+  25.72686361]
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Lightweight baseball players
 
-100xp
+100 xp
 
 code
 
@@ -973,20 +989,22 @@ print(light)
 print(bmi[light])
 ```
 
-output:
+output
 
 ```python
-    [False False False ..., False False False]
-    [ 20.54255679  20.54255679  20.69282047  20.69282047  20.34343189
-      20.34343189  20.69282047  20.15883472  19.4984471   20.69282047
-      20.9205219 ]
+[False False False ..., False False False]
+[ 20.54255679  20.54255679  20.69282047  20.69282047  20.34343189
+  20.34343189  20.69282047  20.15883472  19.4984471   20.69282047
+  20.9205219 ]
 ```
 
 <img src="../../images/datacamp/mc.svg" alt="mc" width="20"/>
 
 ### NumPy Side Effects
 
-50xp
+50 xp
+
+answer
 
 ```python
 np.array([4, 3, 0]) + np.array([0, 2, 2])
@@ -996,7 +1014,7 @@ np.array([4, 3, 0]) + np.array([0, 2, 2])
 
 ### Subsetting NumPy Arrays
 
-100xp
+100 xp
 
 code
 
@@ -1017,24 +1035,24 @@ print(np_weight_lb[50])
 print(np_height_in[100:111])
 ```
 
-output:
+output
 
 ```python
-    200
-    [73 74 72 73 69 72 73 75 75 73 72]
+200
+[73 74 72 73 69 72 73 75 75 73 72]
 ```
 
 <img src="../../images/datacamp/exercise.svg" alt="exercise" width="20"/>
 
 ### 2D NumPy Arrays
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Your First 2D NumPy Array
 
-100xp
+100 xp
 
 code
 
@@ -1058,18 +1076,18 @@ print(type(np_baseball))
 print(np_baseball.shape)
 ```
 
-output:
+output
 
 ```python
-    <class 'numpy.ndarray'>
-    (4, 2)
+<class 'numpy.ndarray'>
+(4, 2)
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Baseball data in 2D form
 
-100xp
+100 xp
 
 code
 
@@ -1086,17 +1104,17 @@ np_baseball = np.array(baseball)
 print(np_baseball.shape)
 ```
 
-output:
+output
 
 ```python
-    (1015, 2)
+(1015, 2)
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Subsetting 2D NumPy Arrays
 
-100xp
+100 xp
 
 code
 
@@ -1119,18 +1137,18 @@ np_weight_lb = np_baseball[:, 1]
 print(np_baseball[123, 0])
 ```
 
-output:
+output
 
 ```python
-    [ 70 195]
-    75
+[ 70 195]
+75
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### 2D Arithmetic
 
-100xp
+100 xp
 
 code
 
@@ -1154,36 +1172,36 @@ conversion = np.array([0.0254, 0.453592, 1])
 print(np_baseball * conversion)
 ```
 
-output:
+output
 
 ```python
-    [[  75.2303559   168.83775102   23.99      ]
-     [  75.02614252  231.09732309   35.69      ]
-     [  73.1544228   215.08167641   31.78      ]
-     ...,
-     [  76.09349925  209.23890778   26.19      ]
-     [  75.82285669  172.21799965   32.01      ]
-     [  73.99484223  203.14402711   28.92      ]]
-    [[  1.8796   81.64656  22.99   ]
-     [  1.8796   97.52228  34.69   ]
-     [  1.8288   95.25432  30.78   ]
-     ...,
-     [  1.905    92.98636  25.19   ]
-     [  1.905    86.18248  31.01   ]
-     [  1.8542   88.45044  27.92   ]]
+[[  75.2303559   168.83775102   23.99      ]
+ [  75.02614252  231.09732309   35.69      ]
+ [  73.1544228   215.08167641   31.78      ]
+ ...,
+ [  76.09349925  209.23890778   26.19      ]
+ [  75.82285669  172.21799965   32.01      ]
+ [  73.99484223  203.14402711   28.92      ]]
+[[  1.8796   81.64656  22.99   ]
+ [  1.8796   97.52228  34.69   ]
+ [  1.8288   95.25432  30.78   ]
+ ...,
+ [  1.905    92.98636  25.19   ]
+ [  1.905    86.18248  31.01   ]
+ [  1.8542   88.45044  27.92   ]]
 ```
 
 <img src="../../images/datacamp/exercise.svg" alt="exercise" width="20"/>
 
 ### NumPy: Basic Statistics
 
-50xp
+50 xp
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Average versus median
 
-100xp
+100 xp
 
 code
 
@@ -1203,18 +1221,18 @@ print(np.mean(np_height_in))
 print(np.median(np_height_in))
 ```
 
-output:
+output
 
 ```python
-    1586.46108374
-    74.0
+1586.46108374
+74.0
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Explore the baseball data
 
-100xp
+100 xp
 
 code
 
@@ -1241,21 +1259,21 @@ corr = np.corrcoef(np_baseball[:, 0], np_baseball[:, 1])
 print("Correlation: " + str(corr))
 ```
 
-output:
+output
 
 ```python
-    Average: 73.6896551724
-    Median: 74.0
-    Standard Deviation: 2.31279188105
-    Correlation: [[ 1.          0.53153932]
-     [ 0.53153932  1.        ]]
+Average: 73.6896551724
+Median: 74.0
+Standard Deviation: 2.31279188105
+Correlation: [[ 1.          0.53153932]
+ [ 0.53153932  1.        ]]
 ```
 
 <img src="../../images/datacamp/interactive.svg" alt="interactive" width="20"/>
 
 ### Blend it all together
 
-100xp
+100 xp
 
 code
 
@@ -1282,11 +1300,11 @@ print("Median height of goalkeepers: " + str(np.median(gk_heights)))
 print("Median height of other players: " + str(np.median(other_heights)))
 ```
 
-output:
+output
 
 ```python
-    Median height of goalkeepers: 188.0
-    Median height of other players: 181.0
+Median height of goalkeepers: 188.0
+Median height of other players: 181.0
 ```
 
 ## STATEMENT OF ACCOMPLISHMENT
